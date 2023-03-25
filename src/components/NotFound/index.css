@@ -1,0 +1,22 @@
+.not-found-bg {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.not-found-img {
+  width: 30%;
+}
+.not-found-head {
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+}
+.not-found-para {
+  color: #cbd5e1;
+  margin-top: 0;
+}

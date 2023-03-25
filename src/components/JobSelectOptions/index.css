@@ -1,0 +1,87 @@
+.job-select-options-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-container {
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 80px;
+}
+.profile-name {
+  color: #6366f1;
+  font-size: 22px;
+  font-weight: 500;
+}
+.profile-bio {
+  color: #2c364c;
+  font-size: 17px;
+}
+.retry-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  margin-bottom: 20px;
+}
+.retry-btn {
+  border: none;
+  background-color: #6366f1;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  padding: 7px 15px;
+}
+hr {
+  border: 1px solid #b6c5ff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.select-options-container {
+  width: 100%;
+}
+.emp-head {
+  color: #f8fafc;
+  margin: 0;
+  font-size: 22px;
+}
+.salary-head {
+  color: #f8fafc;
+  margin: 0;
+  font-size: 22px;
+}
+.emp-ul {
+  padding: 0;
+}
+.emp-li {
+  list-style: none;
+}
+.salary-ul {
+  padding: 0;
+}
+.salary-li {
+  list-style: none;
+}
+.checkbox {
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.checkbox-label {
+  font-size: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.job-details-bg-container {
+  background-color: black;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: 'roboto';
+}
+.job-details-container {
+  padding: 40px;
+}
+.desc-head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-item-link-icon {
+  color: #6366f1;
+  font-size: 22px;
+  text-decoration: none;
+}
+a {
+  display: flex;
+  align-items: center;
+}
+.skill-ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.skill-li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #cbd5e1;
+  font-size: 19px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+.skill-img {
+  width: 60px;
+  margin-right: 20px;
+}
+.life-at-comp-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.life-at-comp-desc {
+  color: #cbd5e1;
+  font-size: 19px;
+  width: 65%;
+}
+.life-at-comp-img {
+  width: 30%;
+}
+.similar-jobs-ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}

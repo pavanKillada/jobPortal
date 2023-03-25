@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  font-family: 'roboto';
+  background-color: #202020;
+}
+.logo-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.app-logo {
+  width: 100px;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 50%;
+}
+.nav-li {
+  margin-right: 20px;
+  list-style: none;
+  color: #cbd5e1;
+  cursor: pointer;
+}
+.links {
+  text-decoration: none;
+}
+.logout-btn {
+  background-color: #6366f1;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  font-size: 15px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+}
+.btn-li {
+  margin-left: auto;
+}
